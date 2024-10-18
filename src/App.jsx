@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Programs from "./components/Programs/Programs";
+import Title from "./components/Title/Title";
+import About from "./components/About/About";
 
 const App = () => {
   return (
@@ -9,7 +11,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
+        <Title subTitle="what we offer" title="our program" />
         <Programs />
+        <About />
+        <Title subTitle="Campus photos" title="gallery" />
       </div>
     </div>
   );
