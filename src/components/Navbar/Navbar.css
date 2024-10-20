@@ -59,6 +59,7 @@ nav ul li {
   .menu-icon{
     display: block;
     cursor: pointer;
+    width: 25px;
   }
   .hide-mobile-menu{
     right: -200px;
